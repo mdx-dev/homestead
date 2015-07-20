@@ -19,9 +19,14 @@ provisioning scripts specifically for the Homestead Ubuntu environment
 * it assumes you have a ./Code directory relative to the repo path
 
 # Up and Running
+```
   mkdir Code
+  
   composer install
+  
   php homestead up && php homestead provision
+  
   php homestead ssh 
   
+```
   
