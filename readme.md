@@ -11,3 +11,7 @@ environments with custom application needs.
 
 Included with this flavor of Homestead is fideloper's [Vaprobash](http://github.com/fideloper/Vaprobash) which provides
 provisioning scripts specifically for the Homestead Ubuntu environment 
+
+# Modifications from Laravel/Homestead
+
+* .homestead files are relative to the repo NOT the user's home path
