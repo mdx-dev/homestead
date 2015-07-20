@@ -15,3 +15,4 @@ provisioning scripts specifically for the Homestead Ubuntu environment
 # Modifications from Laravel/Homestead
 
 * .homestead files are relative to the repo NOT the user's home path
+* Vagrantfile contains additional provisioning 
