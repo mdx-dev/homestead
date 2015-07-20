@@ -1,10 +1,25 @@
 {
     "name": "laravel/homestead",
     "description": "A virtual machine for web artisans.",
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+              "name": "fideloper/Vaprobash",
+              "version":"master",
+              "source": {
+                  "url": "https://github.com/fideloper/Vaprobash.git",
+                  "type": "git",
+                  "reference":"master"
+                }
+            }
+        }
+    ],
     "require": {
         "php": ">=5.4",
         "symfony/console": "~2.0",
-        "symfony/process": "~2.0"
+        "symfony/process": "~2.0",
+        "fideloper/Vaprobash": "master"
     },
     "license": "MIT",
     "authors": [

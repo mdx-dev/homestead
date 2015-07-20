@@ -1,0 +1,31 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: ./Code
+      to: /home/vagrant/Code
+
+sites:
+    - map: prs.l5
+      to: /home/vagrant/Code/prs/public
+
+    - map: prs-admin.l5
+      to: /home/vagrant/Code/prs/public
+
+databases:
+    - homestead
+
+variables:
+    - key: APP_ENV
+      value: local
+
+# blackfire:
+#     - id: foo
+#       token: bar
