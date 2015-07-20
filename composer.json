@@ -5,12 +5,16 @@
         {
             "type":"package",
             "package": {
-              "name": "fideloper/Vaprobash",
-              "version":"master",
-              "source": {
-                  "url": "https://github.com/fideloper/Vaprobash.git",
-                  "type": "git",
-                  "reference":"master"
+                "name": "fideloper/Vaprobash",
+                "version":"1.4.0",
+                "dist": {
+                    "url": "https://github.com/fideloper/Vaprobash/archive/1.4.0.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/fideloper/Vaprobash",
+                    "type": "vcs",
+                    "reference": "1.4.0"
                 }
             }
         }
@@ -19,7 +23,7 @@
         "php": ">=5.4",
         "symfony/console": "~2.0",
         "symfony/process": "~2.0",
-        "fideloper/Vaprobash": "master"
+        "fideloper/Vaprobash": "1.4.0"
     },
     "license": "MIT",
     "authors": [
