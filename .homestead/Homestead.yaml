@@ -19,6 +19,9 @@ sites:
     - map: prs-admin.l5
       to: /home/vagrant/Code/prs/public
 
+    - map: prs-testing.l5
+      to: /home/vagrant/Code/prs/public
+
 databases:
     - homestead
 

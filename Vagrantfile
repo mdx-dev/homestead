@@ -17,7 +17,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	Homestead.configure(config, YAML::load(File.read(homesteadYamlPath)))
 
 	# Provision Mongo
-  	config.vm.provision "shell", path: "vendor/fideloper/Vaprobash/scripts/mongodb.sh" 
+  	config.vm.provision "shell", path: "scripts/expect.sh"
+  	config.vm.provision "shell", path: "vendor/fideloper/Vaprobash/scripts/mongodb.sh"
 
 	if File.exists? afterScriptPath then
 		config.vm.provision "shell", path: afterScriptPath
