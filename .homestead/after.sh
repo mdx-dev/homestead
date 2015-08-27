@@ -6,3 +6,6 @@
 
 sed -i '30i 	fastcgi_param APP_ENV admin; ' /etc/nginx/sites-enabled/prs-admin.l5
 sed -i '30i 	fastcgi_param APP_ENV testing; ' /etc/nginx/sites-enabled/prs-testing.l5
+sudo nginx restart
+
+
