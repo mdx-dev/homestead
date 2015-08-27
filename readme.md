@@ -29,4 +29,11 @@ provisioning scripts specifically for the Homestead Ubuntu environment
   php homestead ssh 
   
 ```
+
+point these environments to your local (127.0.0.1) and browse normally
+
+* prs.l5
+* prs-admin.l5
+* prs-testing.l5
+
   
